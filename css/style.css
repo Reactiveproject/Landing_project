@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Nunito Sans";
-  src: url(/fonts/NunitoSans-Light.ttf);
+  src: url(../fonts/NunitoSans-Light.ttf);
 }
 
 @font-face {
   font-family: "Yeseva One";
-  src: url(/fonts/YesevaOne-Regular.ttf);
+  src: url(../fonts/YesevaOne-Regular.ttf);
 }
 
 body {
@@ -108,7 +108,7 @@ body * {
 /*section flat start*/
 
 .flat {
-  background-image: url(/imges/flat.jpg);
+  background-image: url(../imges/flat.jpg);
   background-size: cover;
   height: 707px;
   padding-top: 194px;
