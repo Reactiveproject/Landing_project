@@ -76,17 +76,30 @@ body * {
   margin-right: 47px;
 }
 
+.header-nav_item:last-of-type {
+  margin-right: 0px;
+}
+
 .header-nav_item a {
   text-decoration: none;
   color: white;
 }
 
-.header-nav_item a:hover {
+.phone a {
+  text-decoration: underline;
   color: #e3b873;
+  margin-left: 50px;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: right;
 }
 
-.header-nav_items a:last-child {
-  text-decoration: underline;
+.header-nav_item a: {
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav_item a:hover {
   color: #e3b873;
 }
 
