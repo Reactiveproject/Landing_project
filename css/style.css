@@ -94,7 +94,7 @@ body * {
   text-align: right;
 }
 
-.header-nav_item a: {
+.header-nav_item a {
   text-decoration: none;
   color: white;
 }
