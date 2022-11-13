@@ -35,8 +35,6 @@ p {
 .button {
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   border-radius: 2px;
-  font-size: 11px;
-  line-height: 15px;
   text-align: center;
   text-transform: uppercase;
   font-style: italic;
@@ -44,11 +42,17 @@ p {
   border: 0;
 }
 
+.button:hover {
+  opacity: 0.7;
+}
+
 .button_nav {
   background: #e3b873;
   outline: 0;
   border: 0;
   padding: 13px 33px;
+  font-size: 11px;
+  line-height: 15px;
 }
 
 .logo a {
@@ -164,6 +168,10 @@ p {
   padding: 13px 20px;
   width: 207px;
   margin-right: 20px;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .button-flat:last-child {
@@ -318,11 +326,191 @@ p {
   text-decoration: underline;
   color: #e3b873;
 }
-/* .completed-content-link {
-  text-decoration: none;
-} */
 
 /* <!-- Style complete end --> */
+
+/* Styel camera start */
+.camera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera-wrapper {
+  margin-top: -300px;
+}
+
+.camera-title {
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 31px;
+}
+
+.subtitleblock {
+  font-family: "Yeseva One";
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+.subtitle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.camera-icon-line {
+  background-color: #e3b873;
+  width: 32px;
+  height: 1.5px;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.camera-icon-item {
+  margin: 0 10px;
+}
+
+.camera-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 62px;
+}
+
+.camera-image-wrapper {
+  width: 820px;
+  height: 435px;
+  position: relative;
+}
+
+.camera-image-item {
+  height: 100%;
+  width: 100%;
+  background-image: url(../imges/video.jpg);
+}
+
+.camera-image-item-overlay {
+  height: 100%;
+  width: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.camera-image-button-wrapper {
+  position: absolute;
+  top: 174px;
+  left: 365px;
+}
+
+.camera-image-button {
+  position: relative;
+}
+
+.camera-image-button-circle {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #e3b873;
+}
+
+.camera-image-button-triangle {
+  position: absolute;
+  top: 29px;
+  left: 34px;
+}
+
+.camera-disc {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 91.5px;
+}
+
+.camera-disc-line {
+  width: 55px;
+  height: 1.5px;
+  background-color: #e3b873;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.camera-disc-text {
+  display: block;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.camera-form {
+  width: 770px;
+  margin: 0 auto;
+}
+
+.camera-form-inputs {
+  display: flex;
+  justify-content: center;
+}
+
+.camera-form-checkbox {
+  margin: 0 auto;
+}
+
+.camera-form-label {
+  justify-content: center;
+}
+
+.camera-form-label {
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(54, 54, 54, 0.5);
+}
+.camera-form-input {
+  background-color: transparent;
+  border: 0;
+  width: 231px;
+  border-bottom: 1px solid #3636364d;
+  margin-right: 55px;
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636;
+}
+
+.camera-button {
+  width: 200px;
+  height: 50px;
+  font-size: 13px;
+  line-height: 27px;
+  color: white;
+  border: 0;
+  font-style: normal;
+  background-color: #e3b873;
+  margin-bottom: 33.5px;
+}
+.camera-form-checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.camera-form-checkbox-item {
+  font-size: 14px;
+  line-height: 163.68%;
+  color: #181818;
+  accent-color: #e3b873;
+}
+.camera-form-checkbox-style {
+}
+
+/* Styel camera end */
 
 /* Style footer start*/
 .footer {
