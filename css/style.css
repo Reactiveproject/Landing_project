@@ -31,6 +31,17 @@ p {
   margin: 0 auto;
 }
 
+.subtitleblock {
+  font-family: "Yeseva One";
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
 /*Style header start*/
 .button {
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -347,16 +358,8 @@ p {
   margin-bottom: 31px;
 }
 
-.subtitleblock {
-  font-family: "Yeseva One";
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
+.camera_subtitle {
   color: #ffffff;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin-bottom: 12px;
 }
 
 .subtitle-icon {
@@ -510,7 +513,69 @@ p {
 .camera-form-checkbox-style {
 }
 
-/* Styel camera end */
+/* Style camera end */
+
+/* Style repair start */
+
+.repair__title-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.repair__title {
+  color: black;
+}
+
+.repair__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 31px;
+}
+
+.repair__cards {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1236px;
+}
+.repair__card {
+  width: 392;
+}
+
+.repair__card:first-of-type {
+  background: url(../imges/repair-1.jpg) no-repeat;
+  width: 100%;
+}
+
+.repair__card:nth-of-type(2) {
+  background: url(../imges/repair-2.jpg) no-repeat;
+  width: 100%;
+}
+
+.repair__card:last-of-type {
+  background: url(../imges/repair-3.jpg) no-repeat;
+  width: 100%;
+}
+
+.repair__card__disc {
+  width: 330px;
+  margin: 0 auto;
+  margin-top: 294px;
+  background-color: white;
+}
+.repair__card_title {
+}
+.repair__card__list {
+}
+.repair_card__list__item {
+}
+.repair__card__price {
+  text-transform: uppercase;
+}
+
+/* Style reair end */
 
 /* Style footer start*/
 .footer {
