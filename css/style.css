@@ -470,7 +470,11 @@ p {
 
 .camera-form-inputs {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+.camera-form-input-wrap {
+  display: flex;
+  flex-direction: column;
 }
 
 .camera-form-label {
