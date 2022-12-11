@@ -92,6 +92,29 @@
               />
             </div>
           </div>
+          <div class="completed-content2">
+            <div class="completed-image">
+              <img
+                src="./imges/complited-sm.png"
+                alt="completed-image"
+                class="completed-image-cont"
+              />
+            </div>
+            <div class="complited__scroll-mob">
+              <div class="complited__scroll-left"></div>
+              <div class="complited__scroll-right"></div>
+              <img
+                src="./imges/Vector (Stroke).svg"
+                alt="vector-left"
+                class="scroll-vector-l"
+              />
+              <img
+                src="./imges/Vector (Stroke).svg"
+                alt="vector-right"
+                class="scroll-vector-r"
+              />
+            </div>
+          </div>
           <div class="completed-dics">
             <div class="completed-specs">
               <div class="completed-specs-items">
@@ -143,85 +166,94 @@
       <!-- Seaction complete end -->
       <!-- Section camera start -->
       <section class="camera">
-        <div class="camera-wrapper">
-          <div class="camera-title">
-            <h3 class="subtitleblock camera_subtitle">online control</h3>
-            <div class="subtitle-icon">
-              <div class="icon-line"></div>
-              <div class="icon-item">
-                <img
-                  class="camera-icon-style"
-                  src="./imges/camera-ico.png"
-                  alt="camera-icon"
-                />
+        <div class="container">
+          <div class="camera-wrapper">
+            <div class="camera-title">
+              <h3 class="subtitleblock camera_subtitle">online control</h3>
+              <div class="subtitle-icon">
+                <div class="icon-line"></div>
+                <div class="icon-item">
+                  <img
+                    class="camera-icon-style"
+                    src="./imges/camera-ico.png"
+                    alt="camera-icon"
+                  />
+                </div>
+                <div class="icon-line"></div>
               </div>
-              <div class="icon-line"></div>
             </div>
-          </div>
-          <div class="camera-image">
-            <div class="camera-image-wrapper">
-              <div class="camera-image-item">
-                <!-- <img src="./imges/video.jpg" alt="video" /> -->
-              </div>
-              <div class="camera-image-item-overlay"></div>
-              <div class="camera-image-button-wrapper">
-                <div class="camera-image-button">
-                  <div class="camera-image-button-circle"></div>
-                  <div class="camera-image-button-triangle">
-                    <img
-                      src="./imges/triangle-ico.png"
-                      alt="triangle-ico"
-                      class="triangle"
-                    />
+            <div class="camera-image">
+              <div class="camera-image-wrapper">
+                <div class="camera-image-item">
+                  <img src="./imges/video.jpg" alt="video" />
+                </div>
+                <div class="camera-image-item-overlay"></div>
+                <div class="camera-image-button-wrapper">
+                  <div class="camera-image-button">
+                    <div class="camera-image-button-circle"></div>
+                    <div class="camera-image-button-triangle">
+                      <img
+                        src="./imges/triangle-ico.png"
+                        alt="triangle-ico"
+                        class="triangle"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="camera-disc">
-            <div class="camera-disc-line"></div>
-            <p class="camera-disc-text">
-              At each facility, a camera is installed that broadcasts the
-              progress of work on the clock. <br />
-              At any time, you can go to our website and monitor the progress of
-              work in <br />
-              your apartment. You can watch the live broadcast from one of our
-              facilities! <br />
-              Leave a request below and you will receive a link to the
-              broadcast.
-            </p>
-          </div>
-          <div class="camera-form">
-            <div class="camera-form-inputs">
-              <div class="input-wrap camera-form-input-wrap">
-                <label for="name" class="input-label">Name</label>
-                <input
-                  type="text"
-                  class="input camera__input"
-                  placeholder="What is your name:"
-                />
-              </div>
-              <div class="input-wrap camera-form-input-wrap">
-                <label for="Phone" class="input-label">Phone</label>
-                <input
-                  type="text"
-                  class="input camera__input"
-                  placeholder="Your phone number:"
-                />
-              </div>
-              <button class="button camera-button">submit</button>
+            <div class="camera-disc">
+              <div class="camera-disc-line"></div>
+              <p class="camera-disc-text-1">
+                At each facility, a camera is installed that broadcasts the
+                progress of work on the clock. <br />
+                At any time, you can go to our website and monitor the progress
+                of work in <br />
+                your apartment. You can watch the live broadcast from one of our
+                facilities! <br />
+                Leave a request below and you will receive a link to the
+                broadcast.
+              </p>
+              <p class="camera-disc-text-2">
+                At each facility, a camera is installed that broadcasts the
+                progress of work on the clock. At any time, you can go to our
+                website and monitor the progress of work in your apartment. You
+                can watch the live broadcast from one of our facilities! Leave a
+                request below and you will receive a link to the broadcast.
+              </p>
             </div>
-            <div class="camera-form-checkbox">
-              <label class="camera-form-checkbox-item">
-                <input
-                  type="checkbox"
-                  name="agreement"
-                  value="data"
-                  class="camera-form-checkbox-style"
-                />
-                I agree to the processing of personal <br />
-                data
-              </label>
+            <div class="camera-form">
+              <div class="camera-form-inputs">
+                <div class="input-wrap camera-form-input-wrap">
+                  <label for="name" class="input-label">Name</label>
+                  <input
+                    type="text"
+                    class="input camera__input"
+                    placeholder="What is your name:"
+                  />
+                </div>
+                <div class="input-wrap camera-form-input-wrap">
+                  <label for="Phone" class="input-label">Phone</label>
+                  <input
+                    type="text"
+                    class="input camera__input"
+                    placeholder="Your phone number:"
+                  />
+                </div>
+                <button class="button camera-button">submit</button>
+              </div>
+              <div class="camera-form-checkbox">
+                <label class="camera-form-checkbox-item">
+                  <input
+                    type="checkbox"
+                    name="agreement"
+                    checked="checked"
+                    value="data"
+                    class="camera-form-checkbox-style"
+                  />
+                  I agree to the processing of personal data
+                </label>
+              </div>
             </div>
           </div>
         </div>
@@ -263,9 +295,9 @@
                   </li>
                   <li class="repair_card__list__item">Replacing doors</li>
                 </ul>
-                <div class="repair__price">
-                  <p>from 900 rub / m2</p>
-                </div>
+              </div>
+              <div class="repair__price">
+                <p>from 900 rub / m2</p>
               </div>
             </div>
             <div class="repair__card">
@@ -286,9 +318,9 @@
                   </li>
                   <li class="repair_card__list__item">Replacing doors</li>
                 </ul>
-                <div class="repair__price">
-                  <p>from 1800 rub / m2</p>
-                </div>
+              </div>
+              <div class="repair__price">
+                <p>from 1800 rub / m2</p>
               </div>
             </div>
             <div class="repair__card">
@@ -309,9 +341,9 @@
                   </li>
                   <li class="repair_card__list__item">Replacing doors</li>
                 </ul>
-                <div class="repair__price">
-                  <p>from 4000 rub / m2</p>
-                </div>
+              </div>
+              <div class="repair__price">
+                <p>from 4000 rub / m2</p>
               </div>
             </div>
           </div>
@@ -406,7 +438,7 @@
       <!--  Section reqest end-->
       <!-- Section fantzy start -->
       <section class="fantazy">
-        <div class="fantazy__container">
+        <div class="fantazy__container container">
           <div class="fantazy__disc">
             <h2 class="yellowtitle fantazy__title">
               We realize your <br />
@@ -440,6 +472,26 @@
             </div>
             <div class="fantazy__photo__items">
               <img src="./imges/fantazy-bg2.png" alt="fantazy-4" />
+            </div>
+          </div>
+          .
+          <div class="fantazy__photos_mob">
+            <div class="fantazy__photos_mob_item">
+              <img src="./imges/fatazy-bg1_mob.png" alt="fantazy-1" />
+            </div>
+            <div class="fantazy__scroll-mob">
+              <div class="fantazy__scroll-left"></div>
+              <div class="fantazy__scroll-right"></div>
+              <img
+                src="./imges/Vector (Stroke).svg"
+                alt="vector-left"
+                class="fantazy-scroll-vector-l"
+              />
+              <img
+                src="./imges/Vector (Stroke).svg"
+                alt="vector-right"
+                class="fantazy-scroll-vector-r"
+              />
             </div>
           </div>
         </div>
@@ -588,7 +640,7 @@
       <!-- Section clients end-->
       <!-- Section question start -->
       <section class="question">
-        <div class="question__container">
+        <div class="question__container container">
           <div class="question__requestform">
             <div class="question__data">have any questions?</div>
             <div class="question__inputs_wrapper">
@@ -627,9 +679,13 @@
             <button class="button question__button">Submit</button>
           </div>
           <div class="question__adressblock">
-            <div class="question__adress">
+            <div class="question__adress-1">
               Rostov-on-Don, Nansen St., 239 Shopping Center <br />
               Decorum Tel +7 (928) 768 32 29
+            </div>
+            <div class="question__adress-2">
+              Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7
+              (928) 768 32 29
             </div>
             <div class="question__adressico">
               <img src="./imges/question-mail-ico.svg" alt="mail" />
