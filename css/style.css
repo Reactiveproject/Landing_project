@@ -551,6 +551,7 @@ p {
   content: "\2714";
   opacity: 0;
   transition: 0.2s;
+  color: #fff;
 }
 
 .checkbox:checked + .fake::before {
@@ -1696,6 +1697,7 @@ p {
     text-transform: uppercase;
     color: #e3b873;
     margin-bottom: 26px;
+    text-decoration: none;
   }
 
   .question__adressico {
