@@ -425,7 +425,6 @@ p {
 
 .camera-image-wrapper {
   max-width: 820px;
-  /* height: 435px; */
   position: relative;
 }
 
@@ -524,21 +523,47 @@ p {
 }
 
 .camera-form-checkbox {
-  margin: 0 auto;
-}
-.camera-form-checkbox {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 147px;
 }
 
-.camera-form-checkbox-item {
+.label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  display: none;
+}
+.fake {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background: #e3b873;
+  color: #fff;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.fake::before {
+  content: "\2714";
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.checkbox:checked + .fake::before {
+  opacity: 1;
+}
+
+.text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 163.68%;
   color: #181818;
-  accent-color: #e3b873;
-  margin-bottom: 51px;
-}
-.camera-form-checkbox-style {
 }
 
 /* Style camera end */
@@ -734,14 +759,16 @@ p {
 }
 
 .request__checkbox {
+  margin-bottom: 39px;
 }
-.request__checkbox__item {
-  color: #ffffff;
+
+.text-bbg {
+  font-family: "Nunito Sans";
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 163.68%;
-}
-.request__checkbox__style {
+  color: #ffffff;
 }
 
 .request__button {
@@ -1136,6 +1163,8 @@ p {
   .container {
     max-width: 340px;
     margin: 0 auto;
+    /* overflow: hidden; */
+    padding: 0 5px;
   }
 
   .button {
@@ -1179,7 +1208,7 @@ p {
   .button-flat {
     padding: 13px 20px;
     width: 100%;
-    margin-right: 20px;
+    margin-right: 0;
     font-size: 11px;
     line-height: 15px;
     text-align: center;
@@ -1285,6 +1314,10 @@ p {
     left: 26px;
   }
 
+  .completed-dics {
+    max-width: 100%;
+    padding: 0 10px 0 10px;
+  }
   .completed-specs-scroll {
     display: none;
   }
@@ -1311,6 +1344,8 @@ p {
   .camera {
     background-color: #131313;
     margin-top: -1px;
+    position: relative;
+    z-index: 2;
   }
 
   .camera-wrapper {
@@ -1362,7 +1397,8 @@ p {
   }
 
   .camera-disc {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
+    padding: 0 10px 0 10px;
   }
 
   .camera-disc-line {
@@ -1387,15 +1423,19 @@ p {
   .camera-form {
     width: 100%;
     margin: 0 auto;
+    top: 25px;
+    position: relative;
   }
 
   .camera-form-inputs {
     display: flex;
     flex-direction: column;
+    position: relative;
   }
 
   .camera-form-input-wrap {
     margin-bottom: 63px;
+    width: 100%;
   }
 
   .camera-form-input-wrap:last-of-type {
@@ -1413,7 +1453,7 @@ p {
   .camera__input {
     width: 100%;
     color: #ffffff;
-    margin-right: 55px;
+    margin-right: 0;
     border-bottom: 1px solid #ffffff;
   }
 
@@ -1434,20 +1474,23 @@ p {
     border: 0;
     font-style: normal;
     background-color: #e3b873;
-    margin-bottom: 33.5px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
   }
 
   .camera-form-checkbox {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 0;
   }
 
-  .camera-form-checkbox-item {
-    font-size: 14px;
-    line-height: 163.68%;
-    color: #ffffff;
-    accent-color: #e3b873;
-    margin-top: -150px;
+  .camera-form-checkbox > label {
+    margin-top: -245px;
+  }
+
+  .text {
+    color: #fff;
   }
 
   .repair {
@@ -1459,7 +1502,6 @@ p {
     justify-content: center;
     flex-direction: column;
     padding-top: 83px;
-    margin-top: -58px;
   }
   .repair__card {
     max-width: 392px;
@@ -1520,6 +1562,7 @@ p {
     padding: 0;
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .fantazy__disc {
@@ -1542,9 +1585,6 @@ p {
 
   .fantazy__photos_mob_item img {
     width: 100%;
-  }
-
-  .fantazy__scroll-mob {
   }
 
   .fantazy__scroll-left {
@@ -1658,9 +1698,14 @@ p {
     margin-bottom: 26px;
   }
 
+  .question__adressico {
+    transform: scale(1.4);
+  }
+
   .question__map img {
     width: 100%;
-    height: auto;
+    height: 255px;
+    object-fit: cover;
   }
 
   .footer {
