@@ -1436,11 +1436,14 @@ p {
     margin: 0 auto;
     top: 25px;
     position: relative;
+    display: flex;
+    flex-direction: column;
   }
 
   .camera-form-inputs {
     display: flex;
     flex-direction: column;
+    order: 1;
   }
 
   .camera-form-input-wrap {
@@ -1449,7 +1452,7 @@ p {
   }
 
   .camera-form-input-wrap:last-of-type {
-    margin-bottom: 107px;
+    margin-bottom: 30px;
   }
 
   .input-label {
@@ -1487,16 +1490,14 @@ p {
     margin-bottom: 0px;
     position: relative;
     z-index: 1;
+    order: 3;
   }
 
   .camera-form-checkbox {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 0;
-  }
-
-  .camera-form-checkbox > label {
-    margin-top: -245px;
+    margin-bottom: 63px;
+    order: 2;
   }
 
   .text {
