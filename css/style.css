@@ -198,8 +198,8 @@ p {
 .flat-container {
   position: relative;
   z-index: 1;
-  margin-left: 134px;
-  padding-bottom: 208px;
+  /* margin-left: 134px; */
+  padding: 0 50px 208px 50px;
 }
 
 .title {
@@ -1452,7 +1452,7 @@ p {
   }
 
   .camera-form-input-wrap:last-of-type {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
   }
 
   .input-label {
@@ -1487,7 +1487,7 @@ p {
     border: 0;
     font-style: normal;
     background-color: #e3b873;
-    margin-bottom: 0px;
+    margin-bottom: -120px;
     position: relative;
     z-index: 1;
     order: 3;
@@ -1496,7 +1496,7 @@ p {
   .camera-form-checkbox {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 63px;
+    margin-bottom: 100px;
     order: 2;
   }
 
